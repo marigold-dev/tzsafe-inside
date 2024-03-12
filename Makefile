@@ -16,9 +16,11 @@ update:
 	node --experimental-specifier-resolution=node ./data/build/fetchContract.js
 	node --experimental-specifier-resolution=node ./data/build/processContracts.js
 	node --experimental-specifier-resolution=node ./data/build/postProcessContracts.js
+	@echo "Building..."
+	cd ui && npm run build
 
 # Target for building and deploying UI
 .PHONY: deploy
 deploy:
-	@echo "Building and deploying UI..."
-	cd ui && npm run build && npm run deploy
+	@echo "Deploying UI..."
+	npm run deploy
