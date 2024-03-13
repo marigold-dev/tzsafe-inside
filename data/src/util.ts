@@ -1,3 +1,5 @@
+import fetch from 'node-fetch';
+
 export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 export const fetchWithTimeout = (url: string, timeout: number = 60000): Promise<any> => {
@@ -21,5 +23,6 @@ export const fetchWithRetry = async (url: string, retries: number = 5): Promise<
             await sleep(5000);
         }
     }
-    throw new Error('Max retries reached.');
+    console.error('Max retries reached.');
+    process.exit(1);
 };
