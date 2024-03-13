@@ -1,7 +1,8 @@
 name: Deploy to GitHub Pages
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * *'  # At 7:00 AM UTC every day (8:00 AM UTC+1)
 
 jobs:
   build-and-deploy:
