@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tzsafe-inside/static/css/main.0449fbbc.css",
-    "main.js": "/tzsafe-inside/static/js/main.0f087967.js",
+    "main.js": "/tzsafe-inside/static/js/main.3e55008f.js",
     "static/js/787.6032a1ea.chunk.js": "/tzsafe-inside/static/js/787.6032a1ea.chunk.js",
     "index.html": "/tzsafe-inside/index.html",
     "main.0449fbbc.css.map": "/tzsafe-inside/static/css/main.0449fbbc.css.map",
-    "main.0f087967.js.map": "/tzsafe-inside/static/js/main.0f087967.js.map",
+    "main.3e55008f.js.map": "/tzsafe-inside/static/js/main.3e55008f.js.map",
     "787.6032a1ea.chunk.js.map": "/tzsafe-inside/static/js/787.6032a1ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0449fbbc.css",
-    "static/js/main.0f087967.js"
+    "static/js/main.3e55008f.js"
   ]
 }
